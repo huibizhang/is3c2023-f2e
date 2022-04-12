@@ -29,16 +29,16 @@ const links = [
         isGroup: false,
       },
       {
-        name: 'Organizing Committee',
-        link: '/committee',
-        isGroup: false,
-      },
-      {
         name: 'Special Sessions',
         link: '/specialSessions',
         isGroup: false,
       },
     ],
+  },
+  {
+    name: 'Organizing Committee',
+    link: '/committee',
+    isGroup: false,
   },
   {
     name: 'Events',

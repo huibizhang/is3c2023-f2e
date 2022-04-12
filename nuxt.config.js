@@ -53,6 +53,11 @@ export default {
         autoprefixer: {},
       },
     },
+    fallback: '/error',
+  },
+
+  generate: {
+    fallback: '/error',
   },
 
   router: {

@@ -1,13 +1,33 @@
 <template>
-  <div class="flex min-h-screen flex-col">
-    <Header v-bind="{ sideBarTrigger: sideBarTrigger }" />
-    <div class="flex-1 space-y-5 p-3">
-      <slot />
-    </div>
-    <Footer />
+  <div class="flex h-screen w-screen flex-col overflow-hidden">
+    <!-- Header (最上面的功能列) -->
+    <Header @menuClick="sideBarTrigger" />
 
-    <!-- SideBar -->
-    <SideBar
+    <div class="flex w-screen flex-1 flex-col justify-between overflow-y-auto">
+      <!-- Page Content (頁面內容) -->
+      <main class="flex min-h-0 flex-none flex-col">
+        <!-- Banner -->
+        <img
+          class="w-full"
+          src="/images/banner-sun_moon_lake.jpg"
+          alt="banner"
+        />
+
+        <!-- 頁面層級定位元件 -->
+        <Location v-bind="{ pageName, isHome }" />
+
+        <div class="min-h-0 flex-1 space-y-5 p-3">
+          <!-- 實際頁面內容插入點 -->
+          <slot />
+        </div>
+      </main>
+
+      <!-- Footer (最底下的) -->
+      <Footer />
+    </div>
+
+    <!-- Drawer 抽屜選單 -->
+    <Drawer
       v-bind="{
         opened: sideBarOpened,
         links: routes.getLinks(),
@@ -18,13 +38,15 @@
 </template>
 
 <script>
-import Footer from './Footer.vue'
 import Header from './Header.vue'
-import SideBar from './Drawer.vue'
+import Footer from './Footer.vue'
+import Drawer from './Drawer.vue'
+import Location from './Location.vue'
 
 import myRoutes from './Routes'
 
 export default {
+  props: ['pageName', 'isHome'],
   data() {
     return {
       routes: new myRoutes(),
@@ -39,7 +61,8 @@ export default {
   components: {
     Header,
     Footer,
-    SideBar,
+    Drawer,
+    Location,
   },
 }
 </script>

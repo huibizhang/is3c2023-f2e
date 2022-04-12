@@ -5,3 +5,7 @@
 /* * {
   font-family: 'Times New Roman', Times, 'serif';
 } */
+
+.link {
+  @apply text-blue-600 underline transition-all hover:text-blue-400;
+}
