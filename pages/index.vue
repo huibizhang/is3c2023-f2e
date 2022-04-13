@@ -1,6 +1,6 @@
 <template>
   <Main isHome="true">
-    <ContentBlock title="About">
+    <ContentBlock title="Aboutttt">
       The aim of the International Symposium on Computer, Consumer and Control
       (IS3C2023) is to provide a worldwide forum, where the international
       participants can share their research knowledge and ideas on the recent
