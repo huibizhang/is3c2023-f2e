@@ -37,6 +37,7 @@ const links = [
   },
   {
     name: 'Organizing Committee',
+    shortName: 'Committee',
     link: '/committee',
     isGroup: false,
   },
@@ -45,8 +46,8 @@ const links = [
     isGroup: true,
     children: [
       {
-        name: 'Keynotes',
-        link: '/keynotes',
+        name: 'Keynote Speakers',
+        link: '/keynoteSpeakers',
         isGroup: false,
       },
       {

@@ -23,13 +23,55 @@
       online at the conference website. Selected papers are invited to some
       major indexed post-conference publications.
     </ContentBlock>
-    <ContentBlock title="Academic Sponsors"></ContentBlock>
-    <ContentBlock title="Industrial Sponsors"></ContentBlock>
+    <ContentBlock title="Academic Sponsors" v-if="sponsors.academic.length">
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+        <SponsorCard
+          v-for="sp in sponsors.academic"
+          :key="sp.sid"
+          v-bind="sp"
+        />
+      </div>
+    </ContentBlock>
+    <ContentBlock
+      title="Industrial Sponsors"
+      v-if="sponsors.indutrial.length"
+    ></ContentBlock>
   </Main>
 </template>
 
 <script>
+import SponsorCard from '~/components/SponsorCard.vue'
+
 export default {
   name: 'Home',
+  data() {
+    return {
+      sponsors: {
+        academic: [],
+        indutrial: [],
+      },
+    }
+  },
+  mounted() {
+    this.getSponsors('academic', this.sponsors)
+    this.getSponsors('indutrial', this.sponsors)
+  },
+  methods: {
+    async getSponsors(sponsorType, container) {
+      try {
+        const response = await this.$axios.get(
+          `http://api.is3c2023.localhost/sponsors?type=${sponsorType}`
+        )
+        if (response.data.status) {
+          container[sponsorType] = response.data.results
+        }
+      } catch (e) {
+        console.log(e)
+      }
+    },
+  },
+  components: {
+    SponsorCard,
+  },
 }
 </script>

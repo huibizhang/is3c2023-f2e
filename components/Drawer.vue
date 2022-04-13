@@ -1,7 +1,7 @@
 <template>
   <div
     :class="[
-      'absolute top-0 h-screen w-screen',
+      'absolute top-0 z-50 h-screen w-screen md:hidden',
       !opened && 'pointer-events-none',
     ]"
   >

@@ -12,21 +12,95 @@
         </a>
       </div>
     </ContentBlock>
+    <hr />
+    <ContentBlock class="inset-0 mx-auto sm:max-w-xl">
+      <div>
+        <div class="flex justify-end">
+          <label
+            :class="[
+              'flex items-center space-x-2 rounded-lg px-4 py-2 transition-all',
+              specialDiscountChecked
+                ? 'bg-blue-100 text-blue-700'
+                : 'bg-gray-100 text-gray-500',
+            ]"
+          >
+            <input
+              type="checkbox"
+              v-model="specialDiscountChecked"
+              class="h-5 w-5 appearance-none rounded-full border-2 checked:border-blue-300 checked:bg-blue-600 checked:bg-check"
+            />
+            <div class="text-sm">Show Special Discount</div>
+          </label>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-5 py-3">
+        <PriceCategoryCard
+          v-for="price in prices"
+          :key="price.name"
+          v-bind="{ showSpecialDiscount: specialDiscountChecked, ...price }"
+        />
+      </div>
+    </ContentBlock>
   </Main>
 </template>
 
 <script>
-import Email from '~/components/Email.vue'
+import PriceCategoryCard from '~/components/PriceCategoryCard.vue'
 
 export default {
-  name: 'Contact',
+  name: 'Registration',
   data() {
     return {
-      emails: ['is3c2020@ncut.edu.tw', 'is3c2020@gm.ncut.edu.tw'],
+      specialDiscountChecked: true,
+      prices: [
+        {
+          name: 'Author',
+          NTD: 16500,
+          USD: 550,
+          unit: 'one person',
+          extra: [
+            {
+              NTD: 13500,
+              USD: 450,
+              unit: 'second submission from one person',
+              earlyBird: {
+                NTD: 12000,
+                USD: 400,
+              },
+            },
+            {
+              NTD: 10500,
+              USD: 350,
+              unit: 'third submission from one person',
+              earlyBird: {
+                NTD: 9000,
+                USD: 300,
+              },
+            },
+          ],
+          earlyBird: {
+            NTD: 15000,
+            USD: 500,
+          },
+          sepcialDiscounts: 'Members of IEEE: Free one-day local tour',
+        },
+        {
+          name: 'Non-Author',
+          NTD: 6600,
+          USD: 220,
+          unit: 'one person',
+        },
+        {
+          name: 'Additional Page',
+          NTD: 3000,
+          USD: 100,
+          unit: 'one page',
+        },
+      ],
     }
   },
   components: {
-    Email,
+    PriceCategoryCard,
   },
 }
 </script>

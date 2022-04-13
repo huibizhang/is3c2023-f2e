@@ -1,7 +1,7 @@
 <template>
-  <div class="flex-none p-3">
+  <div class="w-full flex-none p-3 transition-all">
     <div
-      class="flex flex-col items-center justify-center space-y-2 rounded-lg bg-gray-100 p-3 text-center text-xs"
+      class="flex flex-col items-center justify-center space-y-2 rounded-lg bg-gray-100 p-3 text-center text-xs transition-all sm:text-sm"
     >
       <div class="font-bold">
         IEEE International Symposium on
