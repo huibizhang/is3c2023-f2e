@@ -145,5 +145,10 @@ export default {
       ],
     }
   },
+  head() {
+    return {
+      title: `Call for Papers | ${this.$title}`,
+    }
+  },
 }
 </script>

@@ -27,5 +27,10 @@ export default {
   components: {
     Email,
   },
+  head() {
+    return {
+      title: `Contact | ${this.$title}`,
+    }
+  },
 }
 </script>

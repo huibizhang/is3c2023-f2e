@@ -192,5 +192,10 @@ export default {
   components: {
     SpecialSessionCard,
   },
+  head() {
+    return {
+      title: `Special Sessions | ${this.$title}`,
+    }
+  },
 }
 </script>

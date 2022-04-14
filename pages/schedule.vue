@@ -41,5 +41,10 @@ export default {
   components: {
     LinkOutButton,
   },
+  head() {
+    return {
+      title: `Schedule | ${this.$title}`,
+    }
+  },
 }
 </script>

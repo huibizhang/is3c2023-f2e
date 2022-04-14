@@ -73,5 +73,11 @@ export default {
   components: {
     SponsorCard,
   },
+
+  head() {
+    return {
+      title: this.$title,
+    }
+  },
 }
 </script>

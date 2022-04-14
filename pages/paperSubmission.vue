@@ -64,5 +64,10 @@ export default {
   components: {
     Email,
   },
+  head() {
+    return {
+      title: `Paper Submission | ${this.$title}`,
+    }
+  },
 }
 </script>

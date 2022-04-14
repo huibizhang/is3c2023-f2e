@@ -102,5 +102,10 @@ export default {
   components: {
     PriceCategoryCard,
   },
+  head() {
+    return {
+      title: `Registration | ${this.$title}`,
+    }
+  },
 }
 </script>

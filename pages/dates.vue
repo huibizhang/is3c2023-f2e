@@ -87,5 +87,10 @@ export default {
   components: {
     Email,
   },
+  head() {
+    return {
+      title: `Important Dates | ${this.$title}`,
+    }
+  },
 }
 </script>

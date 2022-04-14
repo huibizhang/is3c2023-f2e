@@ -33,5 +33,10 @@ export default {
   components: {
     NewsCard,
   },
+  head() {
+    return {
+      title: `News | ${this.$title}`,
+    }
+  },
 }
 </script>

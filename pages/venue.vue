@@ -122,5 +122,10 @@ export default {
   components: {
     Email,
   },
+  head() {
+    return {
+      title: `Conference Venue | ${this.$title}`,
+    }
+  },
 }
 </script>

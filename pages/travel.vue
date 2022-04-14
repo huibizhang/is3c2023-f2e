@@ -12,5 +12,10 @@ export default {
   data() {
     return {}
   },
+  head() {
+    return {
+      title: `Travel Information | ${this.$title}`,
+    }
+  },
 }
 </script>

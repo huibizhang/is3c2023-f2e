@@ -78,5 +78,10 @@ export default {
   components: {
     Email,
   },
+  head() {
+    return {
+      title: `Keynote Speakers | ${this.$title}`,
+    }
+  },
 }
 </script>
