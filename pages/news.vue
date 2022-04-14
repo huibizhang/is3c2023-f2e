@@ -22,9 +22,7 @@ export default {
   methods: {
     async getNews() {
       try {
-        const response = await this.$axios.get(
-          'http://api.is3c2023.localhost/news'
-        )
+        const response = await this.$axios.get(`${this.$apiBase}/news`)
 
         if (response.data.status) this.news = response.data.results
       } catch (e) {

@@ -1,6 +1,6 @@
 <template>
   <Main isHome="true">
-    <ContentBlock title="Aboutttt">
+    <ContentBlock title="About">
       The aim of the International Symposium on Computer, Consumer and Control
       (IS3C2023) is to provide a worldwide forum, where the international
       participants can share their research knowledge and ideas on the recent
@@ -60,7 +60,7 @@ export default {
     async getSponsors(sponsorType, container) {
       try {
         const response = await this.$axios.get(
-          `http://api.is3c2023.localhost/sponsors?type=${sponsorType}`
+          `${this.$apiBase}/sponsors?type=${sponsorType}`
         )
         if (response.data.status) {
           container[sponsorType] = response.data.results
