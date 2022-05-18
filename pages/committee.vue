@@ -32,14 +32,14 @@ export default {
         {
           category: 'General Chair',
           members: [
-            'Her-Terng Yau, National Chin-Yi University of Technology, Taiwan',
+            'Sheng-Chih Yang, National Chin-Yi University of Technology, Taiwan',
           ],
         },
 
         {
           category: 'General Co-chair',
           members: [
-            'Kuei-Hsiang Chao, National Chin-Yi University of Technology, Taiwan',
+            'Meng-Hui Wang, National Chin-Yi University of Technology, Taiwan',
           ],
         },
 

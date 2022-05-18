@@ -40,7 +40,7 @@
       <a class="link" href="/files/conference-template-a4.docx"
         >paper template</a
       >
-      for the proceeding of IS3C2020). Papers longer than 4 pages will be
+      for the proceeding of IS3C2023). Papers longer than 4 pages will be
       charged additional NTD 3,000 (~USD100) per page.
     </ContentBlock>
     <ContentBlock title="Please Notice" level="2">

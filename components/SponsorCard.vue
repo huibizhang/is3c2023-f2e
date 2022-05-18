@@ -2,10 +2,11 @@
   <div
     class="group relative flex overflow-hidden rounded-lg border transition-all"
   >
-    <a :href="link" target="_blank" class="flex">
-      <div class="flex flex-col p-2 shadow-md transition-all">
+    <a :href="link" target="_blank" class="flex w-full">
+      <div class="flex w-full flex-col p-2 shadow-md transition-all">
         <div class="aspect-[12/11] w-full flex-none overflow-hidden p-3 pb-0">
           <img
+            v-if="img"
             :src="`/images/sponsors/2020/${img}`"
             :alt="name"
             class="h-full w-full object-contain"
@@ -17,6 +18,7 @@
       </div>
     </a>
     <div
+      v-if="link"
       class="absolute top-0 right-0 h-8 w-8 rounded-bl-md p-1.5 text-transparent transition-all group-hover:bg-gray-100 group-hover:text-gray-500"
     >
       <svg

@@ -8,7 +8,7 @@
       offers an excellent opportunity for scientists, engineers and
       practitioners to present the newest research results, ideas, developments
       and applications. IS3C, held every two years, is hosted by National
-      Chin-Yi University of Technology on November 13-16, 2023, Taichung,
+      Chin-Yi University of Technology on June 30 - July 3, 2023, Taichung,
       Taiwan. As suggested by the name of the conference, the themes of this
       conference cover computer, multimedia and intelligent, communication
       application, integrated circuits, consumer electronics, renewable energy,
@@ -30,6 +30,13 @@
           :key="sp.sid"
           v-bind="sp"
         />
+        <SponsorCard
+          v-bind="{
+            sid: new Date().getTime(),
+            type: 'academic',
+            name: 'Inviting',
+          }"
+        />
       </div>
     </ContentBlock>
     <ContentBlock
@@ -50,6 +57,7 @@ export default {
         academic: [],
         indutrial: [],
       },
+      showInvitingCard: true,
     }
   },
   mounted() {

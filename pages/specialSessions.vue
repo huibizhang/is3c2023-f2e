@@ -5,14 +5,14 @@
       IS3C2023 welcomes prospective authors to organize a special session in our
       conference. Organizer is responsible for inviting at least six papers. The
       proposal must be submitted to the committee (
-      <a class="link" href="mailto:is3c2020@ncut.edu.tw"
-        >is3c2020@ncut.edu.tw</a
+      <a class="link" href="mailto:is3c2023@ncut.edu.tw"
+        >is3c2023@ncut.edu.tw</a
       >
       /
-      <a class="link" href="mailto:is3c2020@gm.ncut.edu.tw"
-        >is3c2020@gm.ncut.edu.tw</a
+      <a class="link" href="mailto:is3c2023@gm.ncut.edu.tw"
+        >is3c2023@gm.ncut.edu.tw</a
       >
-      ) by <span class="text-[red]">August 31, 2020</span>. Once the proposal is
+      ) by <span class="text-[red]">June 30, 2023</span>. Once the proposal is
       approved, the organizer will be invited as the session chair, and he/she
       should take all responsibility to carry out review process. The submission
       procedure is the same as the regular sessions via the submission system

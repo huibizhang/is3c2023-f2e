@@ -2,8 +2,8 @@
   <Main pageName="Call For Papers">
     <ContentBlock title="Call For Papers">
       The International Symposium on Computer, Consumer and Control
-      (<b>IS3C2020</b>) sponsored by National Chin-Yi University of Technology,
-      held on November 13-16, 2020. This conference offers an excellent
+      (<b>IS3C2023</b>) sponsored by National Chin-Yi University of Technology,
+      held on June 30 - July 3, 2023. This conference offers an excellent
       opportunity for scientists, engineers, and practitioners to present the
       latest research results, ideas, developments, and applications. IS3C, held
       every two years, is hosted by National Chin-Yi University of Technology,
@@ -19,17 +19,17 @@
     </ContentBlock>
 
     <ContentBlock title="Invited Sessions" level="2">
-      The IS3C2020 welcomes proposals for organizing special sessions within the
+      The IS3C2023 welcomes proposals for organizing special sessions within the
       conference scope. A brief statement of the session in one page must be
       submitted to
-      <a class="link" href="mailto:is3c2020@ncut.edu.tw">is3c2020@ncut.edu.tw</a
+      <a class="link" href="mailto:is3c2023@ncut.edu.tw">is3c2023@ncut.edu.tw</a
       >. The organizer will be informed the acceptance soon after the proposal
       is approved.
       <br />
       <br />
       <center>
-        <a class="link" href="http://is3c2020.ncuteecs.org/cfp.php#">
-          Proceedings of IS3C2020 will be submitted to IEEE Xplore as well as EI
+        <a class="link" href="http://is3c2023.ncuteecs.org/callForPapers">
+          Proceedings of IS3C2023 will be submitted to IEEE Xplore as well as EI
           index.</a
         >
       </center>

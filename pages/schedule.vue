@@ -6,7 +6,7 @@
 
         <div class="text-center">
           <span class="font-bold"
-            >IS3C2020 conference will be held at<br />
+            >IS3C2023 conference will be held at<br />
             National Chin-Yi University of Technology.<br
           /></span>
           <br />

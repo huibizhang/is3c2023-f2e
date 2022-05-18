@@ -38,50 +38,50 @@ export default {
   data() {
     return {
       dates: [
-        {
-          name: 'Invited Session Proposals Due:',
-          date: '31 August, 2020',
-          extend: '',
-          isDescription: false,
-        },
-        {
-          name: 'Paper Abstract Submission Due:',
-          date: '31 July, 2020',
-          extend: '(Deadline Extended to 15 August, 2020)',
-          isDescription: true,
-        },
-        {
-          name: 'Notification of Acceptance:',
-          date: 'Notify immediately after being reviewed',
-          extend: '',
-          isDescription: false,
-        },
-        {
-          name: 'Final Paper Submission:',
-          date: '20 September, 2020',
-          extend: '(Deadline Extended to 4 October, 2020)',
-          isDescription: true,
-        },
-        {
-          name: 'Author Registration Due:',
-          date: '9 November, 2020',
-          extend: '(Early-bird Discounts: Before 15 September, 2020)',
-          isDescription: false,
-        },
-        {
-          name: 'IEEE Xplore Submission Due:',
-          date: 'Notify after receiving IEEE submission link',
-          extend: '',
-          isDescription: false,
-        },
+        // {
+        //   name: 'Invited Session Proposals Due:',
+        //   date: '31 August, 2020',
+        //   extend: '',
+        //   isDescription: false,
+        // },
+        // {
+        //   name: 'Paper Abstract Submission Due:',
+        //   date: '31 July, 2020',
+        //   extend: '(Deadline Extended to 15 August, 2020)',
+        //   isDescription: true,
+        // },
+        // {
+        //   name: 'Notification of Acceptance:',
+        //   date: 'Notify immediately after being reviewed',
+        //   extend: '',
+        //   isDescription: false,
+        // },
+        // {
+        //   name: 'Final Paper Submission:',
+        //   date: '20 September, 2020',
+        //   extend: '(Deadline Extended to 4 October, 2020)',
+        //   isDescription: true,
+        // },
+        // {
+        //   name: 'Author Registration Due:',
+        //   date: '9 November, 2020',
+        //   extend: '(Early-bird Discounts: Before 15 September, 2020)',
+        //   isDescription: false,
+        // },
+        // {
+        //   name: 'IEEE Xplore Submission Due:',
+        //   date: 'Notify after receiving IEEE submission link',
+        //   extend: '',
+        //   isDescription: false,
+        // },
         {
           name: 'Conference Dates:',
-          date: '13-16 November, 2020',
+          date: 'June 30 - July 3, 2023',
           extend: '',
           isDescription: false,
         },
       ],
-      emails: ['is3c2020@ncut.edu.tw', 'is3c2020@gm.ncut.edu.tw'],
+      emails: ['is3c2023@ncut.edu.tw', 'is3c2023@gm.ncut.edu.tw'],
     }
   },
   components: {
