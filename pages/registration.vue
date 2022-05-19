@@ -1,15 +1,16 @@
 <template>
   <Main pageName="Registration">
     <ContentBlock title="Registration">
-      <div class="flex justify-center py-5">
-        <a href="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub">
-          <div
-            class="flex items-center justify-center space-x-2 rounded bg-gray-200 px-4 py-2 text-lg font-bold text-blue-600 transition-all hover:scale-105 hover:bg-gray-100 hover:text-blue-400 active:scale-95"
-            href="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub"
-          >
-            <span> Go to Registration System</span>
-          </div>
-        </a>
+      <!-- <div class="flex justify-center py-5">
+        <link-out-button
+          link="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub"
+          text="Go to Registration System"
+        />
+      </div> -->
+      <div
+        class="inset-0 mx-auto my-10 flex w-5/6 max-w-xl items-center justify-center rounded-md bg-gray-100 py-10 text-xl font-bold text-gray-500"
+      >
+        Under construction.
       </div>
     </ContentBlock>
     <hr />
@@ -45,6 +46,7 @@
 </template>
 
 <script>
+import LinkOutButton from '~/components/LinkOutButton.vue'
 import PriceCategoryCard from '~/components/PriceCategoryCard.vue'
 
 export default {
@@ -101,6 +103,7 @@ export default {
   },
   components: {
     PriceCategoryCard,
+    LinkOutButton,
   },
   head() {
     return {

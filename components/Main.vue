@@ -14,7 +14,7 @@
           <!-- Banner -->
           <img
             class="pointer-events-none w-full"
-            src="/images/banner-sun_moon_lake.jpg"
+            src="/images/top.jpg"
             alt="banner"
           />
 

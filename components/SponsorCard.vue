@@ -5,13 +5,18 @@
     <!-- ads -->
     <div
       v-if="type === 'ads'"
-      class="flex h-full w-full items-center justify-center bg-gray-100 text-lg font-bold text-gray-500"
+      class="flex h-full min-h-[16.652rem] w-full items-center justify-center bg-gray-100 text-lg font-bold text-gray-500"
     >
       {{ name }}
     </div>
 
     <!-- card content -->
-    <a v-if="type !== 'ads'" :href="link" target="_blank" class="flex w-full">
+    <a
+      v-if="type !== 'ads'"
+      :href="link ? link : 'javascript:viod(0);'"
+      :target="link ? '_blank' : '_self'"
+      class="flex w-full"
+    >
       <div class="flex w-full flex-col p-2 shadow-md transition-all">
         <div class="aspect-[12/11] w-full flex-none overflow-hidden p-3 pb-0">
           <img

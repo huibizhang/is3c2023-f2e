@@ -116,7 +116,7 @@ export default {
   name: 'ConferenceVenue',
   data() {
     return {
-      emails: ['is3c2020@ncut.edu.tw', 'is3c2020@gm.ncut.edu.tw'],
+      emails: ['is3c2023@ncut.edu.tw'],
     }
   },
   components: {

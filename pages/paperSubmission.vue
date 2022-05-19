@@ -1,30 +1,32 @@
 <template>
   <Main pageName="Paper Submission">
     <ContentBlock title="Submission system website">
-      <div class="flex justify-center py-5">
-        <a href="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub">
-          <div
-            class="flex items-center justify-center space-x-2 rounded bg-gray-200 px-4 py-2 text-lg font-bold text-blue-600 transition-all hover:scale-105 hover:bg-gray-100 hover:text-blue-400 active:scale-95"
-            href="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub"
-          >
-            <span> Submit A Full Paper Here </span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
-              />
-            </svg>
-          </div>
-        </a>
+      <div
+        class="inset-0 mx-auto my-10 flex w-5/6 max-w-xl items-center justify-center rounded-md bg-gray-100 py-10 text-xl font-bold text-gray-500"
+      >
+        Under construction.
       </div>
+      <!-- <div class="flex justify-center py-5">
+        <LinkOutButton
+          link="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub"
+          text="Submit A Full Paper Here"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+            />
+          </svg>
+        </LinkOutButton>
+      </div> -->
 
       Papers submitted must be written in English. All submissions must be made
       electronically using PDF format via the submission system website.
@@ -52,17 +54,15 @@
 </template>
 
 <script>
-import Email from '~/components/Email.vue'
+import LinkOutButton from '~/components/LinkOutButton.vue'
 
 export default {
   name: 'Contact',
   data() {
-    return {
-      emails: ['is3c2020@ncut.edu.tw', 'is3c2020@gm.ncut.edu.tw'],
-    }
+    return {}
   },
   components: {
-    Email,
+    LinkOutButton,
   },
   head() {
     return {

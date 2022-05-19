@@ -47,8 +47,18 @@
     </ContentBlock>
     <ContentBlock
       title="Industrial Sponsors"
-      v-if="sponsors.indutrial.length"
-    ></ContentBlock>
+      v-if="true || sponsors.indutrial.length"
+    >
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+        <SponsorCard
+          v-bind="{
+            sid: new Date().getTime(),
+            type: 'ads',
+            name: 'Inviting',
+          }"
+        />
+      </div>
+    </ContentBlock>
   </Main>
 </template>
 
