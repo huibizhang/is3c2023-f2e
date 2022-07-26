@@ -13,12 +13,18 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
+        // hid: 'description',
         name: 'description',
         content:
           'IS3C 2023 is the International Symposium on Computer, Consumer and Control sponsored by IEEE and National Chin-Yi University of Technology.',
       },
-      { name: 'format-detection', content: 'telephone=no' },
+      // { name: 'format-detection', content: 'telephone=no' },
+      { name: 'keywords', content: 'is3c2023, IS3C2023, IS3C-2023' },
+      {
+        name: 'google-site-verification',
+        content: 'Hc4qlXiHVRWw6714s0rT4Uy9x6mU_-2eaestrAPpAQ4',
+      },
+      { name: 'robots', content: 'index,follow' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

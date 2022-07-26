@@ -14,7 +14,7 @@
           <!-- Banner -->
           <img
             class="pointer-events-none w-full"
-            src="/images/top.jpg"
+            src="/images/top.jpg?165462146"
             alt="banner"
           />
 

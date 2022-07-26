@@ -38,7 +38,7 @@
         <div
           class="flex flex-1 items-center justify-center font-bold sm:flex-none"
         >
-          {{ `${position} ${name}` }}
+          {{ positionAtFront ? `${position} ${name}` : `${name} ${position}` }}
         </div>
       </div>
       <div class="flex flex-col space-y-3 pb-3">
@@ -50,7 +50,8 @@
           <div class="my-2 text-lg font-bold text-green-800">
             {{ intro.name }}
           </div>
-          <div>{{ intro.description }}</div>
+          <div v-if="intro.isHTML" v-html="intro.description"></div>
+          <div v-else>{{ intro.description }}</div>
         </div>
       </div>
     </div>
@@ -60,6 +61,13 @@
 <script>
 export default {
   name: 'SpeakerCard',
-  props: ['name', 'position', 'img', 'introductions', 'topic'],
+  props: [
+    'name',
+    'position',
+    'img',
+    'introductions',
+    'topic',
+    'positionAtFront',
+  ],
 }
 </script>

@@ -23,39 +23,47 @@
 import Email from '~/components/Email.vue'
 
 export default {
-  name: 'Keynote Speakers',
+  name: 'KeynoteSpeakers',
   data() {
     return {
       speakers: [
-        // {
-        //   name: 'Ming C. Lin',
-        //   position: 'Prof.',
-        //   img: '/images/keynote-speakers/2020/KeynoteSpeaker01.png',
-        //   introductions: [
-        //     {
-        //       name: 'IEEE Fellow',
-        //       description:
-        //         'Distinguished University Professor and Elizabeth Stevinson Iribe Chair of Computer Science at the University of Maryland College Park and John R. & Louise S. Parker Distinguished Professor Emerita of Computer Science at the University of North Carolina (UNC), Chapel Hill',
-        //     },
-        //     {
-        //       name: 'Research Interests',
-        //       description:
-        //         'Computational robotics, haptics, physically-based modeling, virtual reality, sound rendering, and geometric computing.',
-        //     },
-        //     {
-        //       name: 'Major Honors and Awards',
-        //       description:
-        //         'The NSF Young Faculty Career Award (1995) Honda Research Initiation Award (1997) UNC/IBM Junior Faculty Development Award (1999) UNC Hettleman Award for Scholarly Achievements (2003) Beverly W. Long Distinguished Professorship (2007-2010) UNC WOWS Scholar (2009-2011) IEEE VGTC Virtual Reality Technical Achievement Award (2010)',
-        //     },
-        //   ],
-        //   topic: {
-        //     name: 'Reconstructing Reality: From Physical World to Virtual Environments',
-        //     link: '/files/keynote-speakers/KeynoteSpeaker01.pdf',
-        //   },
-        // },
+        {
+          name: 'Masahide Nakamura',
+          position: 'Ph.D',
+          positionAtFront: false,
+          img: '/images/keynote-speakers/2023/KeynoteSpeaker01.png',
+          introductions: [
+            {
+              name: 'About the Speaker',
+              isHTML: false,
+              description: `Masahide Nakamura received the B.E., M.E., and Ph.D. degrees in Information and Computer Sciences from Osaka University, Japan, in 1994, 1996, 1999, respectively. From 1999 to 2000, he has been a post-doctoral fellow in SITE at University of Ottawa, Canada. He joined Cybermedia Center at Osaka University from 2000 to 2002.  From 2002 to 2007, he worked for the Graduate School of Information Science at Nara Institute of Science and Technology, Japan. From 2007 to 2022, he worked for the Graduate School of System Informatics at Kobe University. He is currently a full professor in the Center of Mathematical and Data Science Center at Kobe University. He is a member of the IEEE, ACM, IEICE and IPSJ.`,
+            },
+            {
+              name: 'Research Interests',
+              isHTML: false,
+              description:
+                'service computing, cloud computing, smart home, smart city, gerontechnology, data-driven approach, software engineering',
+            },
+            {
+              name: 'Major Honors and Awards',
+              isHTML: true,
+              description: `<li>SNPD2022-Summer Best Paper Award (June, 2022)</li>
+                            <li>Kobe University President's Award (October, 2021)</li>
+                            <li>IEICE Human Communication Award (December, 2019)</li>
+                            <li>ICSPIS2018 Best Paper Award (November, 2018)</li>
+                            <li>BCD2018 Best Paper Award (July 2018)</li>
+                            <li>and more…</li>`,
+            },
+          ],
+          topic: {
+            name: 'Exploiting IoT and Virtual Agent for Monitoring Living and Mind of Elderly People at Home',
+            link: '/files/keynote-speakers/2023/KeynoteSpeaker01.pdf',
+          },
+        },
         // {
         //   name: 'Xinghuo Yu',
         //   position: 'Prof.',
+        //   positionAtFront: false,
         //   img: '/images/keynote-speakers/2020/KeynoteSpeaker02.png',
         //   introductions: [
         //     {

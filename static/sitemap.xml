@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://is3c2023.ncuteecs.org/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/news/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/callForPapers/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/dates/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/paperSubmission/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/registration/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/specialSessions/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/committee/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/keynoteSpeakers/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/schedule/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/venue/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/travel/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://is3c2023.ncuteecs.org/contact/</loc>
+  <lastmod>2022-07-26T08:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
