@@ -54,94 +54,94 @@ export default {
   data() {
     return {
       tracks: [
-        // {
-        //   name: 'COMPUTER',
-        //   descriptions: [
-        //     'Computer Networks, Mobile Computing and Cloud Computing Technologies',
-        //     'Digital Content and Web Service',
-        //     'Software Engineering, Service-Oriented Architecture and Databases',
-        //     'Artificial Intelligence, Knowledge Discovery and Fuzzy Systems',
-        //     'Meta-Heuristic Algorithms and Optimization',
-        //     'Information Security, Digital Right and Watermarking',
-        //   ],
-        // },
-        // {
-        //   name: 'MULTIMEDIA & INTELLIGENT COMPUTING',
-        //   descriptions: [
-        //     'Hardware and Software for Multimedia Systems',
-        //     'Virtual Reality, AR, MR, 3D Processing and Application',
-        //     'Signal, Audio, Speech Analysis and Processing',
-        //     'Image Processing and Applications',
-        //     'Computer Vision, Motion, Tracking Algorithms and Applications',
-        //   ],
-        // },
-        // {
-        //   name: 'COMMUNICATION APPLICATION',
-        //   descriptions: [
-        //     'Broadband Mobile and Wireless Communications',
-        //     'Internet of Things (IoT) and Machine-to-Machine (M2M) Communication',
-        //     'Sensor Networks, RFID Technology and Applications',
-        //     'Big Data in Communications',
-        //     'High Frequency and Microwave Circuits',
-        //     'Radio and Microwave Engineering',
-        //   ],
-        // },
-        // {
-        //   name: 'INTEGRATED CIRCUITS',
-        //   descriptions: [
-        //     'Systems on Chip',
-        //     'Application of Microelectronics ',
-        //     'Device Modeling, Simulation and Design ',
-        //     'Material and New Fabrication Facilities Technologies ',
-        //     'Nano Technology ',
-        //     'Sensors, Sensing Technology and Sensor Materials',
-        //     'Micro Electro Mechanical Systems',
-        //     'Microactuators',
-        //   ],
-        // },
-        // {
-        //   name: 'CONSUMER ELECTRONICS',
-        //   descriptions: [
-        //     'Human-Machine Interfaces',
-        //     'Intelligent Robot and Its Applications',
-        //     'Computer and Microprocessor-Based Control',
-        //     'Home/Automotive Electronics Design',
-        //     'Signal Processing in Measurement',
-        //     'Sensor Applications',
-        //     'Low Power Circuit Design',
-        //   ],
-        // },
-        // {
-        //   name: 'RENEWABLE ENERGY',
-        //   descriptions: [
-        //     'Renewable Energy Technologies',
-        //     'Photovoltaic and Wind Energy Technologies',
-        //     'Power Conversions of Renewable Energy',
-        //     'Applications of Power Electronics in Power Systems',
-        //     'Smart Grid Systems',
-        //     'Applications of Renewable Energy in Wireless Charging Systems',
-        //   ],
-        // },
-        // {
-        //   name: 'SYSTEMS AND CONTROL',
-        //   descriptions: [
-        //     'System Modeling and Simulation, Dynamics and Control',
-        //     'Intelligent and Learning Control ',
-        //     'Robotics and Mechatronics',
-        //     'Robust and Nonlinear Control',
-        //     'Biomedical Systems and Control',
-        //   ],
-        // },
-        // {
-        //   name: 'DIGITAL SIGNAL PROCESSING',
-        //   descriptions: [
-        //     'Digital Signal Processing Theory and Methods',
-        //     'Statistical Signal Processing and Applications',
-        //     'Biomedical and Biological Signal Processing',
-        //     'Neural Networks, Fuzzy Systems, Expert Systems, Genetic Algorithms and Data Fusion for Signal Processing',
-        //     'Embedded Systems for Signal Processing',
-        //   ],
-        // },
+        {
+          name: 'COMPUTER',
+          descriptions: [
+            'Computer Networks, Mobile Computing and Cloud Computing Technologies',
+            'Digital Content and Web Service',
+            'Software Engineering, Service-Oriented Architecture and Databases',
+            'Artificial Intelligence, Knowledge Discovery and Fuzzy Systems',
+            'Meta-Heuristic Algorithms and Optimization',
+            'Information Security, Digital Right and Watermarking',
+          ],
+        },
+        {
+          name: 'MULTIMEDIA & INTELLIGENT COMPUTING',
+          descriptions: [
+            'Hardware and Software for Multimedia Systems',
+            'Virtual Reality, AR, MR, 3D Processing and Application',
+            'Signal, Audio, Speech Analysis and Processing',
+            'Image Processing and Applications',
+            'Computer Vision, Motion, Tracking Algorithms and Applications',
+          ],
+        },
+        {
+          name: 'COMMUNICATION APPLICATION',
+          descriptions: [
+            'Broadband Mobile and Wireless Communications',
+            'Internet of Things (IoT) and Machine-to-Machine (M2M) Communication',
+            'Sensor Networks, RFID Technology and Applications',
+            'Big Data in Communications',
+            'High Frequency and Microwave Circuits',
+            'Radio and Microwave Engineering',
+          ],
+        },
+        {
+          name: 'INTEGRATED CIRCUITS',
+          descriptions: [
+            'Systems on Chip',
+            'Application of Microelectronics ',
+            'Device Modeling, Simulation and Design ',
+            'Material and New Fabrication Facilities Technologies ',
+            'Nano Technology ',
+            'Sensors, Sensing Technology and Sensor Materials',
+            'Micro Electro Mechanical Systems',
+            'Microactuators',
+          ],
+        },
+        {
+          name: 'CONSUMER ELECTRONICS',
+          descriptions: [
+            'Human-Machine Interfaces',
+            'Intelligent Robot and Its Applications',
+            'Computer and Microprocessor-Based Control',
+            'Home/Automotive Electronics Design',
+            'Signal Processing in Measurement',
+            'Sensor Applications',
+            'Low Power Circuit Design',
+          ],
+        },
+        {
+          name: 'RENEWABLE ENERGY',
+          descriptions: [
+            'Renewable Energy Technologies',
+            'Photovoltaic and Wind Energy Technologies',
+            'Power Conversions of Renewable Energy',
+            'Applications of Power Electronics in Power Systems',
+            'Smart Grid Systems',
+            'Applications of Renewable Energy in Wireless Charging Systems',
+          ],
+        },
+        {
+          name: 'SYSTEMS AND CONTROL',
+          descriptions: [
+            'System Modeling and Simulation, Dynamics and Control',
+            'Intelligent and Learning Control ',
+            'Robotics and Mechatronics',
+            'Robust and Nonlinear Control',
+            'Biomedical Systems and Control',
+          ],
+        },
+        {
+          name: 'DIGITAL SIGNAL PROCESSING',
+          descriptions: [
+            'Digital Signal Processing Theory and Methods',
+            'Statistical Signal Processing and Applications',
+            'Biomedical and Biological Signal Processing',
+            'Neural Networks, Fuzzy Systems, Expert Systems, Genetic Algorithms and Data Fusion for Signal Processing',
+            'Embedded Systems for Signal Processing',
+          ],
+        },
       ],
     }
   },
