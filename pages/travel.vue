@@ -14,10 +14,7 @@
           <div
             class="inset-0 mx-auto max-w-[600px] overflow-hidden rounded-lg bg-gray-100 shadow-md transition-all hover:scale-105"
           >
-            <img
-              :src="place.img"
-              alt="link to travel-information of Taichung."
-            />
+            <img :src="place.img" :alt="place.alt" />
             <div class="py-2 text-center text-xs text-gray-500">
               image-source: eng.taiwan.net.tw
             </div>
@@ -37,12 +34,14 @@ export default {
         {
           name: 'Taichung',
           link: 'https://eng.taiwan.net.tw/m1.aspx?sNo=0002112',
-          img: 'images/travel-info/taichung.jpg',
+          img: '/images/travel-info/taichung.jpg',
+          alt: 'link to travel-information of Taichung.',
         },
         {
           name: 'Nantou',
           link: 'https://eng.taiwan.net.tw/m1.aspx?sNo=0002114',
-          img: 'images/travel-info/nantou.jpg',
+          img: '/images/travel-info/nantou.jpg',
+          alt: 'link to travel-information of Nantou.',
         },
       ],
     }
