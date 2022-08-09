@@ -20,7 +20,7 @@
     >
       <a
         class="link"
-        href="/files/Special%20Session%20Proposals%20for%20the%20IS3C2020%20(Template)%20109.5.12.doc"
+        href="/files/Special%20Session%20Proposals%20for%20the%20IS3C2023%20(Template)%20111.8.9.doc"
         >Click here to download the MS Word Template file.</a
       >
     </ContentBlock>
