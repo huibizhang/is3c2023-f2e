@@ -7,7 +7,9 @@
       <div class="border-b p-2 last:border-b-0">
         <div class="py-1 font-bold text-gray-600">
           Registration Fee
-          <span v-if="earlyBird && showSpecialDiscount" class="text-lime-700"
+          <span
+            v-if="earlyBird && showSpecialDiscount && !outOfEarlyBirdDate"
+            class="text-lime-700"
             >(Early bird)</span
           >
         </div>
@@ -19,6 +21,7 @@
               unit,
               earlyBird,
               showSpecialDiscount,
+              outOfEarlyBirdDate,
             }"
           />
 
@@ -29,6 +32,7 @@
             v-bind="{
               ...ex,
               showSpecialDiscount,
+              outOfEarlyBirdDate,
             }"
           />
         </div>
@@ -58,6 +62,7 @@ export default {
     'earlyBird',
     'sepcialDiscounts',
     'showSpecialDiscount',
+    'outOfEarlyBirdDate',
   ],
   components: {
     PriceCard,

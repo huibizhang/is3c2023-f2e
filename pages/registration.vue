@@ -38,7 +38,11 @@
         <PriceCategoryCard
           v-for="price in prices"
           :key="price.name"
-          v-bind="{ showSpecialDiscount: specialDiscountChecked, ...price }"
+          v-bind="{
+            showSpecialDiscount: specialDiscountChecked,
+            outOfEarlyBirdDate: outOfEarlyBirdDate,
+            ...price,
+          }"
         />
       </div>
     </ContentBlock>
@@ -53,7 +57,10 @@ export default {
   name: 'Registration',
   data() {
     return {
+      endOfEarlyBirdDate: new Date('2023/05/01'),
+      // endOfEarlyBirdDate: new Date('2022/08/12'),
       specialDiscountChecked: true,
+      outOfEarlyBirdDate: false,
       prices: [
         {
           name: 'Author',
@@ -99,6 +106,16 @@ export default {
           unit: 'one page',
         },
       ],
+    }
+  },
+  mounted() {
+    const now = new Date().getTime()
+    const deadline = this.endOfEarlyBirdDate.getTime()
+
+    if (now >= deadline) {
+      this.outOfEarlyBirdDate = true
+    } else {
+      this.outOfEarlyBirdDate = false
     }
   },
   components: {

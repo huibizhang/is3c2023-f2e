@@ -21,11 +21,14 @@
       <p
         :class="[
           'text-lg font-bold transition-all',
-          earlyBird && showSpecialDiscount && 'text-green-600',
+          earlyBird &&
+            showSpecialDiscount &&
+            !outOfEarlyBirdDate &&
+            'text-green-600',
         ]"
       >
         {{
-          earlyBird && showSpecialDiscount
+          earlyBird && showSpecialDiscount && !outOfEarlyBirdDate
             ? `NTD ${earlyBird.NTD} (~USD ${earlyBird.USD})`
             : `NTD ${NTD} (~USD ${USD})`
         }}
@@ -33,7 +36,7 @@
       <p
         :class="[
           'overflow-hidden text-base font-bold transition-all delay-200',
-          earlyBird && showSpecialDiscount
+          earlyBird && showSpecialDiscount && !outOfEarlyBirdDate
             ? 'max-h-32 text-red-300 line-through'
             : 'max-h-0 text-transparent',
         ]"
@@ -50,7 +53,14 @@
 <script>
 export default {
   name: 'PriceCard',
-  props: ['NTD', 'USD', 'unit', 'earlyBird', 'showSpecialDiscount'],
+  props: [
+    'NTD',
+    'USD',
+    'unit',
+    'earlyBird',
+    'showSpecialDiscount',
+    'outOfEarlyBirdDate',
+  ],
 }
 </script>
 
