@@ -17,7 +17,7 @@
     <ContentBlock class="inset-0 mx-auto sm:max-w-xl">
       <div>
         <div class="flex justify-end">
-          <label
+          <!-- <label
             :class="[
               'flex items-center space-x-2 rounded-lg px-4 py-2 transition-all',
               specialDiscountChecked
@@ -31,7 +31,7 @@
               class="h-5 w-5 appearance-none rounded-full border-2 checked:border-blue-300 checked:bg-blue-600 checked:bg-check"
             />
             <div class="text-sm">Show Special Discount</div>
-          </label>
+          </label> -->
         </div>
       </div>
       <div class="flex flex-col space-y-5 py-3">
