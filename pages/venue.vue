@@ -16,8 +16,8 @@
       ><br />
       Fax: 886 (04) 23923363 <br />
       Email:
-      <a class="link" href="mailto:is3c2020@ncut.edu.tw"
-        >is3c2020@ncut.edu.tw</a
+      <a class="link" href="mailto:is3c2023@ncut.edu.tw"
+        >is3c2023@ncut.edu.tw</a
       >
     </ContentBlock>
 
