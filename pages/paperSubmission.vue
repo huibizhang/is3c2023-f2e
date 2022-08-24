@@ -4,7 +4,8 @@
       <div
         class="inset-0 mx-auto my-10 flex w-5/6 max-w-xl items-center justify-center rounded-md bg-gray-100 py-10 text-xl font-bold text-gray-500"
       >
-        Under construction.
+        <!-- Under construction. -->
+        Coming Soon.
       </div>
       <!-- <div class="flex justify-center py-5">
         <LinkOutButton
