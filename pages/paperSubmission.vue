@@ -68,12 +68,12 @@ export default {
     return {
       files: [
         {
-          filename: 'conference-template-a4.docx',
-          link: '/files/conference-template-a4.docx',
-        },
-        {
           filename: 'IS3C 2023-ABSTRACT-TEMPLATE.docx',
           link: '/files/IS3C%202023-ABSTRACT-TEMPLATE.docx',
+        },
+        {
+          filename: 'conference-template-a4.docx',
+          link: '/files/conference-template-a4.docx',
         },
       ],
     }
