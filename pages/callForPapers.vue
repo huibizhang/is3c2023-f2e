@@ -16,6 +16,10 @@
       Computing, Consumer, and Control. Selected papers will be published in the
       conference proceedings, and some excellent articles will be recommended to
       related SCI(E)/ EI journals for publication.
+
+      <div class="flex w-full flex-col items-center space-y-4 p-5">
+        <FileLink v-for="file in files" :key="file.filename" v-bind="file" />
+      </div>
     </ContentBlock>
 
     <ContentBlock title="Invited Sessions" level="2">
@@ -49,10 +53,22 @@
 </template>
 
 <script>
+import FileLink from '~/components/FileLink.vue'
+
 export default {
   name: 'CallForPapers',
   data() {
     return {
+      files: [
+        {
+          filename: 'conference-template-a4.docx',
+          link: '/files/conference-template-a4.docx',
+        },
+        {
+          filename: 'IS3C 2023-ABSTRACT-TEMPLATE.docx',
+          link: '/files/IS3C%202023-ABSTRACT-TEMPLATE.docx',
+        },
+      ],
       tracks: [
         {
           name: 'COMPUTER',

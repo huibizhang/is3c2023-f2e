@@ -45,6 +45,10 @@
       >
       for the proceeding of IS3C2023). Papers longer than 4 pages will be
       charged additional NTD 3,000 (~USD100) per page.
+
+      <div class="flex w-full flex-col items-center space-y-4 p-5">
+        <FileLink v-for="file in files" :key="file.filename" v-bind="file" />
+      </div>
     </ContentBlock>
     <ContentBlock title="Please Notice" level="2">
       <!-- Please notice: -->
@@ -55,15 +59,28 @@
 </template>
 
 <script>
+import FileLink from '~/components/FileLink.vue'
 import LinkOutButton from '~/components/LinkOutButton.vue'
 
 export default {
   name: 'Contact',
   data() {
-    return {}
+    return {
+      files: [
+        {
+          filename: 'conference-template-a4.docx',
+          link: '/files/conference-template-a4.docx',
+        },
+        {
+          filename: 'IS3C 2023-ABSTRACT-TEMPLATE.docx',
+          link: '/files/IS3C%202023-ABSTRACT-TEMPLATE.docx',
+        },
+      ],
+    }
   },
   components: {
     LinkOutButton,
+    FileLink,
   },
   head() {
     return {
