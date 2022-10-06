@@ -40,6 +40,10 @@ export default {
           category: 'General Co-chair',
           members: [
             'Meng-Hui Wang, National Chin-Yi University of Technology, Taiwan',
+            'Chuin-Mu Wang, National Chin-Yi University of Technology, Taiwan',
+            'Wen-Cheng Pu, National Chin-Yi University of Technology, Taiwan',
+            'Chi-Chang Wu, National Chin-Yi University of Technology, Taiwan',
+            'Chen-Kun Tsung, National Chin-Yi University of Technology, Taiwan',
           ],
         },
 
