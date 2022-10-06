@@ -19,9 +19,11 @@
       published in the conference proceedings by IEEE Xplore and will be
       submitted to the EI index and several major citation indexes. Selected
       papers will be invited to submit their revised/enhanced version to
-      international journals. All the prospective papers must be submitted
-      online at the conference website. Selected papers are invited to some
-      major indexed post-conference publications.
+      international journals (Electronics, Multimedia Tools and Applications,
+      Applied Sciences, Sensors and Materials, MDPI Processes...). All the
+      prospective papers must be submitted online at the conference website.
+      Selected papers are invited to some major indexed post-conference
+      publications.
     </ContentBlock>
     <ContentBlock title="Academic Sponsors" v-if="sponsors.academic.length">
       <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
