@@ -5,9 +5,8 @@
         {{ `IS-${toNN(index + 1)}` }}
       </div>
       <a
-        :href="`/files/special-session-proposals/IS${toNN(
-          index + 1
-        )}-SpecialSessionProposal.pdf`"
+        v-if="more"
+        :href="`/files/special-session-proposals/${more}`"
         target="_blank"
       >
         <div
@@ -42,6 +41,7 @@
         </div>
       </div>
       <div
+        v-if="contact.length"
         class="border-t pt-1 sm:flex-1 sm:border-t-0 sm:border-l sm:pt-0 sm:pl-3"
       >
         <div class="py-1 font-bold text-gray-500">Contact</div>
@@ -58,7 +58,7 @@
 <script>
 export default {
   name: 'SpecialSessionCard',
-  props: ['index', 'name', 'organizer', 'contact', 'note'],
+  props: ['index', 'name', 'organizer', 'contact', 'note', 'more'],
   methods: {
     toNN(input) {
       return input < 10 ? `0${input}` : `${input}`

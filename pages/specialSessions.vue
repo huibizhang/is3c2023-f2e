@@ -54,24 +54,22 @@ export default {
   data() {
     return {
       specialSessions: [
-        // {
-        //   // IS-01
-        //   name: 'Soft Computing and its Applications',
-        //   organizer: [
-        //     'Prof. Sheng-Chih Yang',
-        //     'Prof. Cheng-Jian Lin',
-        //     'Prof. Chi-Yuan Lin',
-        //   ],
-        //   contact: ['scyang@ncut.edu.tw'],
-        //   note: '',
-        // },
-        // {
-        //   // IS-02
-        //   name: 'Brain Intelligence Control, Artificial Intelligence and Electrical Engineering',
-        //   organizer: ['Prof. Mei Wang'],
-        //   contact: ['wangm@xust.edu.cn'],
-        //   note: '',
-        // },
+        {
+          // IS-01
+          name: 'Measured Signal Collection, Processing and Applications',
+          organizer: ['Prof. Hsiung-Cheng Lin', 'Prof. Meng-Hua Yen'],
+          contact: [],
+          note: '',
+          more: '',
+        },
+        {
+          // IS-02
+          name: 'Robust control and signal processing',
+          organizer: ['Prof. Jun-Juh Yan', 'Prof. Hang-Hong Kuo'],
+          contact: [],
+          note: '',
+          more: '',
+        },
         // {
         //   // IS-03
         //   name: 'Advanced Computer Vision Technologies',
