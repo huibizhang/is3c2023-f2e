@@ -51,13 +51,15 @@ export default {
           category: 'Technical Program Committee Chairs',
           members: [
             'Hsiung-Cheng Lin, National Chin-Yi University of Technology, Taiwan',
+            'Yo-Ping Huang, National Penghu University of Science and Technology, Taiwan',
+            'Ching-Jan Chen, National Taiwan University, Taiwan',
           ],
         },
         {
           category: 'Publication Chairs',
           members: [
             'Chia-Hung Lin, National Chin-Yi University of Technology, Taiwan',
-            'Jian-Xing Wu, National Chin-Yi University of Technology, Taiwan',
+            'Chuan-Wang Chang, National Chin-Yi University of Technology, Taiwan',
             'PAUL P. LIN, Cleveland State University, USA',
           ],
         },
@@ -114,6 +116,8 @@ export default {
             'Tsorng-Juu Liang, National Cheng Kung University, Taiwan',
             'Faa-Jeng Lin, National Central University, Taiwan',
             'Yen-Shin Lai, National Taipei University of Technology, Taiwan',
+            'Chuan-Yu Chang, National Yunlin University of Science & Technology, Taiwan',
+            'Tzung-Pei Hong, National University of KaohSiung, Taiwan',
           ],
         },
         {

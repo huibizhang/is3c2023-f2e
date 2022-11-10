@@ -70,21 +70,22 @@ export default {
           note: '',
           more: '',
         },
-        // {
-        //   // IS-03
-        //   name: 'Advanced Computer Vision Technologies',
-        //   organizer: [
-        //     'Prof. Guo-Shiang Lin',
-        //     'Prof. Chih-Chung Hsu',
-        //     'Prof. Sheng-Chih Yang',
-        //   ],
-        //   contact: [
-        //     'gslin@ncut.edu.tw',
-        //     'cchsu@mail.npust.edu.tw',
-        //     'scyang@ncut.edu.tw',
-        //   ],
-        //   note: '',
-        // },
+        {
+          // IS-03
+          name: 'Advanced Computer Vision Technologies',
+          organizer: [
+            'Prof. Guo-Shiang Lin',
+            'Prof. Chih-Chung Hsu',
+            'Prof. Chih-Yang Lin',
+          ],
+          contact: [
+            'gslin@ncut.edu.tw',
+            'cchsu@gs.ncku.edu.tw',
+            'andrewlin@saturn.yzu.edu.tw',
+          ],
+          note: '',
+          more: 'IS03-special-session-proposals.pdf',
+        },
         // {
         //   // IS-04
         //   name: 'Power Quality and Energy System',

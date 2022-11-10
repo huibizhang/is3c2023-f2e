@@ -65,7 +65,7 @@ export default {
         {
           name: 'Author Registration Due:',
           date: 'June 20, 2023',
-          extend: '(Early-bird Discounts: Before May 1, 2023)',
+          extend: '(Early-bird Discounts: Before May 15, 2023)',
           isDescription: true,
         },
         {

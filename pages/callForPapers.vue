@@ -90,11 +90,15 @@ export default {
             'Virtual Reality, AR, MR, 3D Processing and Application',
             'Signal, Audio, Speech Analysis and Processing',
             'Image Processing and Applications',
-            'Computer Vision, Motion, Tracking Algorithms and Applications',
+            'Computer Vision and Applications',
+            'Machine Learning and Applications',
+            'Multimedia Forensics and Security',
+            'Human-Machine Interface',
           ],
         },
         {
-          name: 'COMMUNICATION APPLICATION',
+          // name: 'COMMUNICATION APPLICATION',
+          name: 'AIoT, ICT & SENSOR APPLICATIONS',
           descriptions: [
             'Broadband Mobile and Wireless Communications',
             'Internet of Things (IoT) and Machine-to-Machine (M2M) Communication',
@@ -105,7 +109,7 @@ export default {
           ],
         },
         {
-          name: 'INTEGRATED CIRCUITS',
+          name: 'SEMICONDUCTOR DEVICES & INTEGRATED CIRCUITS',
           descriptions: [
             'Systems on Chip',
             'Application of Microelectronics ',
@@ -127,6 +131,7 @@ export default {
             'Signal Processing in Measurement',
             'Sensor Applications',
             'Low Power Circuit Design',
+            'Electro-optical devices and systems',
           ],
         },
         {
@@ -148,6 +153,7 @@ export default {
             'Robotics and Mechatronics',
             'Robust and Nonlinear Control',
             'Biomedical Systems and Control',
+            'Artificial Intelligence and Internet of Things (AIoT) and Related Applications',
           ],
         },
         {

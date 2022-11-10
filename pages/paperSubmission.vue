@@ -1,15 +1,15 @@
 <template>
   <Main pageName="Paper Submission">
     <ContentBlock title="Submission system website">
-      <div
+      <!-- <div
         class="inset-0 mx-auto my-10 flex w-5/6 max-w-xl items-center justify-center rounded-md bg-gray-100 py-10 text-xl font-bold text-gray-500"
-      >
-        <!-- Under construction. -->
-        Coming Soon.
-      </div>
-      <!-- <div class="flex justify-center py-5">
+      > -->
+      <!-- Under construction. -->
+      <!-- Coming Soon.
+      </div> -->
+      <div class="flex justify-center py-5">
         <LinkOutButton
-          link="https://conference.iis.sinica.edu.tw/surl/is3c2020/sub"
+          link="https://conference.iis.sinica.edu.tw/surl/is3c2023/sub"
           text="Submit A Full Paper Here"
         >
           <svg
@@ -27,7 +27,7 @@
             />
           </svg>
         </LinkOutButton>
-      </div> -->
+      </div>
 
       Papers submitted must be written in English. All submissions must be made
       electronically using PDF format via the submission system website.
