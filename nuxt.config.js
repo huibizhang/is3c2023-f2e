@@ -65,11 +65,11 @@ export default {
         autoprefixer: {},
       },
     },
-    fallback: '/error',
+    fallback: '/error.html',
   },
 
   generate: {
-    fallback: '/error',
+    fallback: '/error.html',
     dir: '../dist',
   },
 
