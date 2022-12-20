@@ -1,6 +1,6 @@
 <template>
   <Main pageName="Paper Submission">
-    <ContentBlock title="Submission system website">
+    <ContentBlock title="Submission System">
       <!-- <div
         class="inset-0 mx-auto my-10 flex w-5/6 max-w-xl items-center justify-center rounded-md bg-gray-100 py-10 text-xl font-bold text-gray-500"
       > -->
@@ -10,7 +10,7 @@
       <div class="flex justify-center py-5">
         <LinkOutButton
           link="https://conference.iis.sinica.edu.tw/surl/is3c2023/sub"
-          text="Submit A Full Paper Here"
+          text="Submit Your Abstract Here"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

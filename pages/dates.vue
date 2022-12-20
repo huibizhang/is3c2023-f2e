@@ -57,7 +57,7 @@ export default {
           isDescription: true,
         },
         {
-          name: 'Final Paper Submission:',
+          name: 'Final Paper Submission Due:',
           date: 'April 30, 2023',
           extend: '',
           isDescription: true,

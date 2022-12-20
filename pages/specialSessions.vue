@@ -64,11 +64,11 @@ export default {
         },
         {
           // IS-02
-          name: 'Robust control and signal processing',
+          name: 'Robust Control and Signal Processing',
           organizer: ['Prof. Jun-Juh Yan', 'Prof. Hang-Hong Kuo'],
-          contact: [],
+          contact: ['jjyan@ncut.edu.tw'],
           note: '',
-          more: '',
+          more: 'IS02-special-session-proposals.pdf',
         },
         {
           // IS-03
@@ -86,35 +86,26 @@ export default {
           note: '',
           more: 'IS03-special-session-proposals.pdf',
         },
-        // {
-        //   // IS-04
-        //   name: 'Power Quality and Energy System',
-        //   organizer: ['Prof. Cheng-I Chen', 'Prof. Yeong-Chin Chen'],
-        //   contact: ['cichen@ee.ncu.edu.tw', 'ycchenster@gmail.com'],
-        //   note: '',
-        // },
-        // {
-        //   // IS-05
-        //   name: 'IoT Sensing and Artificial Intelligence',
-        //   organizer: [
-        //     'Prof. Shun-Yuan Wang',
-        //     'Prof. Sung-Jung Hsiao',
-        //     'Prof. Jen-Hsiang Chou',
-        //   ],
-        //   contact: ['topdike@gmail.com'],
-        //   note: '',
-        // },
-        // {
-        //   // IS-06
-        //   name: 'Informatic System Design and Implementation',
-        //   organizer: [
-        //     'Prof. Chuin-Mu Wang',
-        //     'Prof. Ruey-Maw Chen',
-        //     'Prof. Chen-Kun Tsung',
-        //   ],
-        //   contact: ['ckt@ncut.edu.tw'],
-        //   note: '',
-        // },
+        {
+          // IS-04
+          name: 'Signal Sensing, Processing and Applications',
+          organizer: ['Prof. Hsiung-Cheng Lin'],
+          contact: ['hclin@ncut.edu.tw'],
+          note: '',
+          more: 'IS04-special-session-proposals.pdf',
+        },
+        {
+          // IS-05
+          name: 'Soft Computing and its Applications',
+          organizer: [
+            'Prof. Chi-Yuan Lin',
+            'Prof. Cheng-Jian Lin',
+            'Prof. Sheng-Chih Yang',
+          ],
+          contact: ['chiyuan@ncut.edu.tw'],
+          note: '',
+          more: 'IS05-special-session-proposals.pdf',
+        },
         // {
         //   // IS-07
         //   name: 'Innovative Applications of Technologies and Data Analysis for Internet of Thing',
