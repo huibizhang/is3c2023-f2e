@@ -60,7 +60,7 @@ export default {
           organizer: ['Prof. Hsiung-Cheng Lin', 'Prof. Meng-Hua Yen'],
           contact: [],
           note: '',
-          more: '',
+          more: 'IS01-special-session-proposals.pdf',
         },
         {
           // IS-02
