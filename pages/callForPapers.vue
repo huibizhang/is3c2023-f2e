@@ -170,6 +170,18 @@ export default {
             'Embedded Systems for Signal Processing',
           ],
         },
+        {
+          name: 'ARTIFICIAL INTELLIGENCE AND COMPUTER ENGINEERING',
+          descriptions: [
+            'AI Image Classification, Processing and Applications',
+            'AI Deep Learning and Its Applications',
+            'AI in Medical Field',
+            'AI in Cyber Security',
+            'AIoT and AIoT-based Applications',
+            'Cloud AI, Edge AI and Terminal AI',
+            'X Reality (XR) and X Technology in Metaverse',
+          ],
+        },
       ],
     }
   },
