@@ -58,7 +58,7 @@ export default {
           // IS-01
           name: 'Measured Signal Collection, Processing and Applications',
           organizer: ['Prof. Hsiung-Cheng Lin', 'Prof. Meng-Hua Yen'],
-          contact: [],
+          contact: ['hclin@ncut.edu.tw'],
           note: '',
           more: 'IS01-special-session-proposals.pdf',
         },
@@ -104,7 +104,7 @@ export default {
           ],
           contact: ['chiyuan@ncut.edu.tw'],
           note: '',
-          more: 'IS05-special-session-proposals.pdf',
+          more: 'IS04-special-session-proposals.pdf',
         },
         // {
         //   // IS-07
