@@ -86,14 +86,14 @@ export default {
           note: '',
           more: 'IS03-special-session-proposals.pdf',
         },
-        {
-          // IS-04
-          name: 'Signal Sensing, Processing and Applications',
-          organizer: ['Prof. Hsiung-Cheng Lin'],
-          contact: ['hclin@ncut.edu.tw'],
-          note: '',
-          more: 'IS04-special-session-proposals.pdf',
-        },
+        // {
+        //   // IS-04
+        //   name: 'Signal Sensing, Processing and Applications',
+        //   organizer: ['Prof. Hsiung-Cheng Lin'],
+        //   contact: ['hclin@ncut.edu.tw'],
+        //   note: '',
+        //   more: 'IS04-special-session-proposals.pdf',
+        // },
         {
           // IS-05
           name: 'Soft Computing and its Applications',
