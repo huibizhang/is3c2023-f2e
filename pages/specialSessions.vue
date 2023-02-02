@@ -20,7 +20,7 @@
     >
       <a
         class="link"
-        href="/files/Special%20Session%20Proposals%20for%20the%20IS3C2023%20(Template)%20111.8.9.doc"
+        href="/files/Special%20Session%20Proposals%20for%20the%20IS3C2023%20(Template).112.2.3.doc"
         >Click here to download the MS Word Template file.</a
       >
     </ContentBlock>
@@ -86,16 +86,8 @@ export default {
           note: '',
           more: 'IS03-special-session-proposals.pdf',
         },
-        // {
-        //   // IS-04
-        //   name: 'Signal Sensing, Processing and Applications',
-        //   organizer: ['Prof. Hsiung-Cheng Lin'],
-        //   contact: ['hclin@ncut.edu.tw'],
-        //   note: '',
-        //   more: 'IS04-special-session-proposals.pdf',
-        // },
         {
-          // IS-05
+          // IS-04
           name: 'Soft Computing and its Applications',
           organizer: [
             'Prof. Chi-Yuan Lin',
@@ -105,6 +97,18 @@ export default {
           contact: ['chiyuan@ncut.edu.tw'],
           note: '',
           more: 'IS04-special-session-proposals.pdf',
+        },
+        {
+          // IS-05
+          name: 'Engineering Applications of Deep Learning and Artificial Intelligence (EADLAI)',
+          organizer: [
+            'Prof. Chih-Hung Wu',
+            'Prof. Chih-Chin Lai',
+            'Prof. Shing-Tai Pan',
+          ],
+          contact: ['johnw@nuk.edu.tw', 'cclai@nuk.edu.tw', 'stpan@nuk.edu.tw'],
+          note: '',
+          more: 'IS05-special-session-proposals.pdf',
         },
         // {
         //   // IS-07
