@@ -100,6 +100,14 @@ export default {
         },
         {
           // IS-05
+          name: 'Network Security Is Applied in the IoT System',
+          organizer: ['Prof. Sung-Jung Hsiao'],
+          contact: ['sungjung@gs.takming.edu.tw'],
+          note: '',
+          more: 'IS05-special-session-proposals.pdf',
+        },
+        {
+          // IS-06
           name: 'Engineering Applications of Deep Learning and Artificial Intelligence (EADLAI)',
           organizer: [
             'Prof. Chih-Hung Wu',
@@ -108,15 +116,16 @@ export default {
           ],
           contact: ['johnw@nuk.edu.tw', 'cclai@nuk.edu.tw', 'stpan@nuk.edu.tw'],
           note: '',
-          more: 'IS05-special-session-proposals.pdf',
+          more: 'IS06-special-session-proposals.pdf',
         },
-        // {
-        //   // IS-07
-        //   name: 'Innovative Applications of Technologies and Data Analysis for Internet of Thing',
-        //   organizer: ['Prof. Rung-Ching Chen', 'Prof. Yung-Fa Huang'],
-        //   contact: ['crching@cyut.edu.tw', 'yfahuang@cyut.edu.tw'],
-        //   note: '',
-        // },
+        {
+          // IS-07
+          name: 'Power Quality and Energy System',
+          organizer: ['Prof. Cheng-I Chen', 'Prof. Yu-Jen Liu'],
+          contact: ['cichen@ee.ncu.edu.tw', 'azenliu@ccu.edu.tw'],
+          note: '',
+          more: 'IS07-special-session-proposals.pdf',
+        },
         // {
         //   // IS-08
         //   name: 'Artificial Intelligence and Internet of Things Technologies and Applications',
