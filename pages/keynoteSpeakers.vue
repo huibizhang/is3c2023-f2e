@@ -60,33 +60,46 @@ export default {
             link: '/files/keynote-speakers/2023/KeynoteSpeaker01.pdf',
           },
         },
-        // {
-        //   name: 'Xinghuo Yu',
-        //   position: 'Prof.',
-        //   positionAtFront: false,
-        //   img: '/images/keynote-speakers/2020/KeynoteSpeaker02.png',
-        //   introductions: [
-        //     {
-        //       name: 'IEEE Fellow',
-        //       description:
-        //         'Associate Deputy Vice-Chancellor and Distinguished Professor of Electrical and Electronic Engineering at Royal Melbourne Institute of Technology (RMIT University), Melbourne, Australia',
-        //     },
-        //     {
-        //       name: 'Research Interests',
-        //       description:
-        //         'Control systems, intelligent and complex systems, energy systems engineering',
-        //     },
-        //     {
-        //       name: 'Major Honors and Awards',
-        //       description:
-        //         'Honorary Professorship: Shanghai University, Shanghai, China (2018); Huazhong University of Science and Technology, Wuhan, China (2016); Anhui University, Hefei, China (2016); Fudan University, Shanghai, China (2014) M. A. Sargent Medal, joint award from the Electrical College and the Information, Telecommunications and Electronics Engineering College of Engineers Australia (2018) Named an Engineering Executive, Engineers Australia (2018) Named a Highly Cited Researcher (Engineering Category) five years in a row from 2015 to 2019, Clarivate Analytics (formerly Thomson Reuters) Australasian Artificial Intelligence Distinguished Research Contribution Award, Australian Computer Society (2018)',
-        //     },
-        //   ],
-        //   topic: {
-        //     name: 'Discontinuous Control Systems: Past, Present and Future',
-        //     link: '/files/keynote-speakers/KeynoteSpeaker02.pdf',
-        //   },
-        // },
+        {
+          name: 'Wen-Huang Cheng',
+          position: 'Ph.D',
+          positionAtFront: false,
+          img: '/images/keynote-speakers/2023/KeynoteSpeaker02.jpg',
+          introductions: [
+            {
+              name: 'About the Speaker',
+              isHTML: false,
+              description: `Wen-Huang Cheng is Professor with the Department of Computer Science and Information Engineering, National Taiwan University (NTU). His current research interests include artificial intelligence, multimedia, computer vision, machine learning, digital transformation, and financial technology. He has actively participated in international events and played important leading roles in prestigious journals and conferences and professional organizations, including Editor-in-Chief for IEEE CTSoc News on Consumer Technology, Senior Editor for IEEE Consumer Electronics Magazine, Associate Editor for IEEE Transactions on Multimedia (T-MM), General Chair for ACM MMAsia (2023), IEEE ICCE-TW (2023, 2022), IEEE ICME (2022) and ACM ICMR (2021), Chair for IEEE Multimedia Systems and Applications (MSA) technical committee, governing board member for IAPR. He has received numerous research and service awards, including the Best Paper Award of 2021 IEEE ICME and the Outstanding Associate Editor Award of IEEE T-MM (2021 and 2020, twice). He is IEEE Distinguished Lecturer, ACM Distinguished Member, and IET Fellow.`,
+            },
+            {
+              name: 'Research Interests',
+              isHTML: false,
+              description:
+                'Artificial Intelligence, Multimedia, Computer Vision, Machine Learning, Digital Transformation, Financial Technology',
+            },
+            {
+              name: 'Major Honors and Awards',
+              isHTML: true,
+              description: `<li>2021 Future Tech Award, MOST (Ministry of Science and Technology of Taiwan)</li>
+                            <li>2021 Taiwan’s National Innovation Award</li>
+                            <li>2021 & 2020 Outstanding Associate Editor Award of IEEE Transactions on Multimedia</li>
+                            <li>2021 Best Associate Editor Award of Multimedia Systems</li>
+                            <li>Best Paper Award of 2021 IEEE International Conference on Multimedia & Expo (ICME)</li>
+                            <li>Third Place Winner (out of 56), IEEE ICCV 2021 - Chalearn 3D High-Fidelity Mask Face Presentation Attack Detection Challenge</li>
+                            <li>IEEE Distinguished Lecturer (2021)</li>
+                            <li>ACM Distinguished Member (2020)</li>
+                            <li>Fellow of Institute of Engineering and Technology (IET) (2020)</li>
+                            <li>First Place Winner, IEEE CVPR 2020 - Look Into Person (LIP) Challenge (Track: Image-based Multi-pose Virtual Try-on Challenge)</li>
+                            <li>Third Place Winner (out of 272), ECCV 2020 - GigaVision Challenge</li>
+                            <li>2018 Collaborative Research Award of Microsoft Research Asia (MSRA)
+                            `,
+            },
+          ],
+          topic: {
+            name: 'Opportunities and Challenges of Large-Scale Vision Foundation Models',
+            link: '/files/keynote-speakers/2023/KeynoteSpeaker02.pdf',
+          },
+        },
       ],
     }
   },
