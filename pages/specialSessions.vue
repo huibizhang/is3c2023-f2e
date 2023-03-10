@@ -126,21 +126,14 @@ export default {
           note: '',
           more: 'IS07-special-session-proposals.pdf',
         },
-        // {
-        //   // IS-08
-        //   name: 'Artificial Intelligence and Internet of Things Technologies and Applications',
-        //   organizer: [
-        //     'Prof. Yu-Huei Cheng',
-        //     'Prof. Jiun-Jian Liaw',
-        //     'Prof. Che-Nan Kuo',
-        //   ],
-        //   contact: [
-        //     'yuhuei.cheng@gmail.com',
-        //     'jjliaw@cyut.edu.tw',
-        //     'cn.kuo@ctbc.edu.tw',
-        //   ],
-        //   note: '',
-        // },
+        {
+          // IS-08
+          name: 'Computer Graphics Workshop 2023',
+          organizer: ['Prof. Hung-Kuang Chen'],
+          contact: ['hank@ncut.edu.tw'],
+          note: '',
+          more: 'IS08-special-session-proposals.pdf',
+        },
         // {
         //   // IS-09
         //   name: 'Forecasting Technique for Renewable Power Generation',
