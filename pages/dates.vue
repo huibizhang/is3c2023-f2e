@@ -47,8 +47,8 @@ export default {
         {
           name: 'Paper Abstract Submission Due:',
           date: 'March 15, 2023',
-          extend: '',
-          isDescription: true,
+          extend: 'March 31, 2023',
+          isDescription: false,
         },
         {
           name: 'Notification of Acceptance:',
