@@ -83,7 +83,8 @@ export default {
               NTD: 9000,
               USD: 300,
               // unit: 'third submission from one person',
-              unit: 'third paper',
+              // unit: 'third paper',
+              unit: 'third paper and above',
               earlyBird: {
                 NTD: 7500,
                 USD: 250,
@@ -109,6 +110,13 @@ export default {
           USD: 100,
           // unit: 'one page',
           unit: 'one extra page',
+        },
+        {
+          name: 'Local Tour',
+          NTD: 1500,
+          USD: 50,
+          // unit: 'one page',
+          unit: 'one person',
         },
       ],
     }
