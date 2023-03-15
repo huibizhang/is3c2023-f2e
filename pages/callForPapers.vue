@@ -15,9 +15,10 @@
       solicited, including theories, methodologies, and applications in
       Computing, Consumer, and Control. Selected papers will be published in the
       conference proceedings, and some excellent articles will be recommended to
-      related SCI(E)/ EI journals (Electronics, Multimedia Tools and
-      Applications, Applied Sciences, Sensors and Materials, MDPI Processes...)
-      for publication.
+      related SCI(E)/ EI journals (MDPI Electronics, MDPI Processes, MDPI
+      Machines, Computer Systems Science and Engineering, Applied Sciences,
+      Sensors and Materials, Multimedia Tools and Applications (MTAP), IJ3C) for
+      publication.
 
       <div class="flex w-full flex-col items-center space-y-4 p-5">
         <FileLink v-for="file in files" :key="file.filename" v-bind="file" />

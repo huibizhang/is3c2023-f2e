@@ -19,8 +19,9 @@
       published in the conference proceedings by IEEE Xplore and will be
       submitted to the EI index and several major citation indexes. Selected
       papers will be invited to submit their revised/enhanced version to
-      international journals (Electronics, Multimedia Tools and Applications,
-      Applied Sciences, Sensors and Materials, MDPI Processes...). All the
+      international journals (MDPI Electronics, MDPI Processes, MDPI Machines,
+      Computer Systems Science and Engineering, Applied Sciences, Sensors and
+      Materials, Multimedia Tools and Applications (MTAP), IJ3C). All the
       prospective papers must be submitted online at the conference website.
       Selected papers are invited to some major indexed post-conference
       publications.
