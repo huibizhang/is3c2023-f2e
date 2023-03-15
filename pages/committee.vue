@@ -110,6 +110,7 @@ export default {
             'R. S. Beniwal, CSIR-NISCAIR, New Delhi, India',
             'J. G. Barajas-Ramirez, Institute for Scientific and Technological Research of San Luis Potosi, Mexico',
             'Trung T Pham, Universidad de Talca, Campus Lircay Talca, Chile',
+            'Chao-Tung Yang, Tunghai University, Taiwan',
             'Kuei-Hsiang Chao, National Chin-Yi University of Technology, Taiwan',
             'Dan Chen, National Taiwan University, Taiwan',
             'Jiann-Fuh Chen, National Cheng Kung University, Taiwan',
