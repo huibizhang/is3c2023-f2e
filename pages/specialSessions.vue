@@ -134,13 +134,17 @@ export default {
           note: '',
           more: 'IS08-special-session-proposals.pdf',
         },
-        // {
-        //   // IS-09
-        //   name: 'Forecasting Technique for Renewable Power Generation',
-        //   organizer: ['Prof. Yuan-Kang Wu'],
-        //   contact: ['allenwu@ccu.edu.tw'],
-        //   note: '',
-        // },
+        {
+          // IS-09
+          name: 'Intelligent Computation and AIoT Applications',
+          organizer: ['Prof. Yu-Huei Cheng', 'Prof. Yu-Da Lin'],
+          contact: [
+            'yhcheng@cyut.edu.tw',
+            'yuhuei.cheng@gmail.com',
+            'yudalinemail@gms.npu.edu.tw',
+          ],
+          note: '',
+        },
         // {
         //   // IS-10
         //   name: 'Intelligent Systems and Control',
