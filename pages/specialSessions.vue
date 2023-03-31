@@ -8,7 +8,7 @@
       <a class="link" href="mailto:is3c2023@ncut.edu.tw"
         >is3c2023@ncut.edu.tw</a
       >
-      ) by <span class="text-[red]">March 31, 2023</span>. Once the proposal is
+      ) by <span class="text-[red]">April 30, 2023</span>. Once the proposal is
       approved, the organizer will be invited as the session chair, and he/she
       should take all responsibility to carry out review process. The submission
       procedure is the same as the regular sessions via the submission system
@@ -20,7 +20,7 @@
     >
       <a
         class="link"
-        href="/files/Special%20Session%20Proposals%20for%20the%20IS3C2023%20(Template).112.2.3.doc"
+        href="/files/Special%20Session%20Proposals%20for%20the%20IS3C2023%20(Template).112.3.31.doc"
         >Click here to download the MS Word Template file.</a
       >
     </ContentBlock>
