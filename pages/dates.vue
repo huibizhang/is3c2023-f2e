@@ -47,20 +47,20 @@ export default {
         {
           name: 'Paper Abstract Submission Due:',
           date: 'March 15, 2023',
-          extend: 'March 31, 2023',
+          extend: 'Final Deadline Extension: April 30, 2023',
           isDescription: false,
         },
         {
           name: 'Notification of Acceptance:',
-          date: 'April 10, 2023',
-          extend: '',
+          date: 'First Section: April 10, 2023',
+          extend: 'Final Section: May 5, 2023',
           isDescription: true,
         },
         {
           name: 'Final Paper Submission Due:',
           date: 'April 30, 2023',
-          extend: '',
-          isDescription: true,
+          extend: 'May 12, 2023',
+          isDescription: false,
         },
         {
           name: 'Author Registration Due:',
