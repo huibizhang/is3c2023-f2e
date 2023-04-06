@@ -143,7 +143,7 @@ export default {
             'yuhuei.cheng@gmail.com',
             'yudalinemail@gms.npu.edu.tw',
           ],
-          note: '',
+          note: 'IS09-special-session-proposals.pdf',
         },
         // {
         //   // IS-10
