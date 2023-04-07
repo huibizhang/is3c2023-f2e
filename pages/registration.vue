@@ -3,7 +3,7 @@
     <ContentBlock title="Registration">
       <div class="flex justify-center py-5">
         <link-out-button
-          link="https://conference.iis.sinica.edu.tw/surl/is3c2023/sub"
+          link="https://conference.iis.sinica.edu.tw/servlet/Register?ConferenceID=419"
           text="Go to Registration System"
         />
       </div>
