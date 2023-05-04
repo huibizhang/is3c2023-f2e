@@ -65,6 +65,11 @@ const links = [
         link: '/travel',
         isGroup: false,
       },
+      {
+        name: 'Hotel Information',
+        link: '/hotel',
+        isGroup: false,
+      },
     ],
   },
   {
