@@ -29,12 +29,12 @@ export default {
       links: [
         {
           text: 'Conference Program Schedule',
-          link: '/files/schedule/IS3C2023_Conference_Program_Schedule.pdf',
+          link: '/files/schedule/IS3C2023_Conference_Program_Schedule.pdf?20230611',
         },
-        // {
-        //   text: 'Paper Presentation Schedule',
-        //   link: '/files/schedule/IS3C2020_Paper_Presentation_Schedule.pdf',
-        // },
+        {
+          text: 'Paper Presentation Schedule',
+          link: '/files/schedule/IS3C2023_Paper_Presentation_Schedule.pdf?20230611',
+        },
       ],
     }
   },
