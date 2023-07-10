@@ -33,7 +33,7 @@ export default {
         },
         {
           text: 'Paper Presentation Schedule',
-          link: '/files/schedule/IS3C2023_Paper_Presentation_Schedule.pdf?20230611',
+          link: '/files/schedule/IS3C2023_Paper_Presentation_Schedule.pdf?20230620',
         },
       ],
     }
